@@ -5,13 +5,13 @@ function Customer() {
     return (
         <>
         <div >
-            <NavLink to={'/customer-details'} className={({ isActive }) => (isActive ? ` text-blue-500 w-full h-24 border-2` : ' text-black')}><div>hii</div></NavLink>
+            <NavLink to={'/customer-details'} className={({ isActive }) => (isActive ? ' text-blue-500 ' : ' text-black')}><div className='w-full h-24 border-2'>Click Me1</div></NavLink>
         </div>
         <div >
-            <NavLink to={'/customer-details'}><div className='w-full h-24 border-2'>hii</div></NavLink>
+            <NavLink to={'/customer-details'}><div className='w-full h-24 border-2'>Click Me2</div></NavLink>
         </div>
         <div>
-            <NavLink to={'/customer-details'}><div className='w-full h-24 border-2'>hii</div></NavLink>
+            <NavLink to={'/customer-details'}><div className='w-full h-24 border-2'>Click Me3</div></NavLink>
         </div>
         </>
         
